@@ -1,0 +1,36 @@
+@mixin fixed-fluid($width) {
+  & {
+    @include clearfix;
+  }
+  > aside {
+    float: left;
+    width: $width;
+    margin-right: -$width;
+  }
+  > section {
+    float: left;
+    width: 100%;
+    > div {
+      margin-left: $width;
+    }
+  }
+}
+
+@mixin fluid-fixed($width) {
+  & {
+    @include clearfix;
+  }
+  > aside {
+    float: left;
+    width: $width;
+    margin-left: -$width;
+  }
+  > section {
+    float: left;
+    width: 100%;
+    > div {
+      margin-right: $width;
+    }
+  }
+}
+

@@ -1,0 +1,7 @@
+@charset "UTF-8";
+.some {
+  background-image: url("images/web/pen.gif"); }
+  .some:before {
+    content: "╨б╤В╤А╨░╨╜╨╕╤Ж╨░ 12!"; }
+
+/*# sourceMappingURL=concat.css.map */

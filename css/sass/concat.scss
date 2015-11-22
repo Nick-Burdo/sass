@@ -1,0 +1,8 @@
+$image_dir: 'images/web/';
+$page: 12;
+
+.some
+{
+  background-image: url( $image_dir + 'pen.gif' );
+  &:before { content: 'Страница #{$page}!'; }
+}
