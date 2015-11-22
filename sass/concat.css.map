@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": ";AAGA,KACA;EACE,gBAAgB,EAAE,yBAA6B;EAC/C,YAAS;IAAE,OAAO,EAAE,sBAA4B",
-"sources": ["concat.scss"],
-"names": [],
-"file": "concat.css"
-}

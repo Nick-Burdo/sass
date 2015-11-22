@@ -32,6 +32,23 @@ body {
   .fixed-250-fluid > section > div {
     margin-left: 250px; }
 
+.fluid-250-fixed:before, .fluid-250-fixed:after {
+  content: "";
+  display: table; }
+.fluid-250-fixed:after {
+  clear: both; }
+.fluid-250-fixed {
+  zoom: 1; }
+.fluid-250-fixed > aside {
+  float: left;
+  width: 250px;
+  margin-left: -250px; }
+.fluid-250-fixed > section {
+  float: left;
+  width: 100%; }
+  .fluid-250-fixed > section > div {
+    margin-right: 250px; }
+
 .fluid-100-fixed:before, .fluid-100-fixed:after {
   content: "";
   display: table; }

@@ -1,4 +1,4 @@
-@import "base-vars";
+@import "var/_base-vars";
 @import "mixin/fluid-fixed";
 @import "mixin/fixed-fluid";
 @import "mixin/clearfix";
@@ -7,6 +7,9 @@
 
 .fixed-250-fluid {
   @include fixed-fluid(250px)
+}
+.fluid-250-fixed {
+  @include fluid-fixed(250px)
 }
 .fluid-100-fixed {
   @include fluid-fixed(100px)
