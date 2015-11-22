@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AACE,sBAAM;EACJ,KAAK,EAAE,IAAI;EACX,KAAK,EAcc,GAAG;EAbtB,WAAW,EAAE,IAAO;AAEtB,wBAAQ;EACN,KAAK,EAAE,IAAI;EACX,KAAK,EAAE,IAAI;EACX,8BAAK;IACH,KAAK,EAAE,IAAI;IACX,WAAW,EAMM,GAAG",
-"sources": ["sidebar-layout.scss"],
-"names": [],
-"file": "sidebar-layout.css"
-}

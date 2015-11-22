@@ -1,9 +1,4 @@
 @charset "UTF-8";
-.some {
-  background-image: url("images/web/pen.gif"); }
-  .some:before {
-    content: "Страница 12!"; }
-
 body {
   color: #7299bf;
   background: #fedcba; }
@@ -14,6 +9,11 @@ body {
     background: mistyrose; }
   .dummy.blue {
     background: lightblue; }
+
+.some {
+  background-image: url("images/web/pen.gif"); }
+  .some:before {
+    content: "Страница 12!"; }
 
 .fixed-250-fluid:before, .fixed-250-fluid:after {
   content: "";

@@ -1,16 +1,14 @@
-$body_color: #7299bf;
-$bg_color: #fedcba;
-
-@mixin clearfix {
-  &:before,
-  &:after {
-    content: "";
-    display: table;
+body {
+  color: $body_color;
+  background: $bg_color;
+}
+.dummy {
+  height: 300px;
+  &.rose {
+    background: mistyrose;
   }
-  &:after {
-    clear: both;
-  }
-  & {
-    zoom: 1;
+  &.blue {
+    background: lightblue;
   }
 }
+

@@ -1,20 +1,9 @@
+@import "base-vars";
+@import "mixin/fluid-fixed";
+@import "mixin/fixed-fluid";
+@import "mixin/clearfix";
 @import "base";
 @import "concat";
-@import "sidebar-layout";
-$base_color: #7299bf;
-body {
-  color: $body_color;
-  background: $bg_color;
-}
-.dummy {
-  height: 300px;
-  &.rose {
-    background: mistyrose;
-  }
-  &.blue {
-    background: lightblue;
-  }
-}
 
 .fixed-250-fluid {
   @include fixed-fluid(250px)
